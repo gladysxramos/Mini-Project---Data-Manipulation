@@ -1,6 +1,5 @@
 # Mini Project - Data Manipulation
 
+import pandas as pd
 
-jared = "cool"
-
-hello = 10
+df = pd.read_csv('comic_characters.csv', header = 0)
